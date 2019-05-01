@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="OPTIONS">
+
+        <Preference
+            android:title="GUDETAMA"
+            android:summary="Copyright 2018 Vy Tran\u2122"
+            android:selectable="false"/>
+        <Preference
+            android:title="Author's Information"
+            android:summary="Learn more about author"
+            android:key="key_author_info"/>
+        <CheckBoxPreference
+            android:title="Play Background Music"
+            android:key="key_music_enabled"
+            android:defaultValue="true"/>
+        <Preference
+            android:title="Start New Game"
+            android:summary="Click to start new game"
+            android:key="key_new_game"/>
+        <Preference
+            android:key="key_notify"/>
+    </PreferenceCategory>
+</PreferenceScreen>
